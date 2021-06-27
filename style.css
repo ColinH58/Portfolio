@@ -1,15 +1,16 @@
 html {
     background-color: hsl(215, 25%, 25%);
     text-align: center;
-    font-size: large;
+    font-size: 20px;
     font-family: "Roboto Slab", "Times New Roman", serif;
+    margin: 50px;
 }
 body {
     color: white;
 }
 /* About Section */
 footer {
-    font-size: 12px;
+    font-size: 14px;
 }
 /* Line above Footer */
 .border {
