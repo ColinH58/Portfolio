@@ -3,26 +3,27 @@ html {
     text-align: center;
     font-size: 20px;
     font-family: "Roboto Slab", "Times New Roman", serif;
-    margin: 50px;
+    border-left: 50px solid hsl(43, 74%, 48%);
+    border-right: 50px solid hsl(43, 74%, 48%);
 }
 body {
     color: white;
-}
+    }
 /* About Section */
 footer {
     font-size: 14px;
 }
 /* Line above Footer */
 .border {
-    border-top: 5px solid whitesmoke;
+    border-top: 5px solid white;
 }
 /* Default Link */
 a:link {
-    color: whitesmoke;
+    color: white;
   }
   /* Visited Link */
   a:visited {
-    color: goldenrod;
+    color: hsl(43, 74%, 48%);
   }
   /* Hover Over the Link */
   a:hover {
