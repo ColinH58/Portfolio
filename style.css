@@ -43,9 +43,11 @@ a:link {
   }
 
   #banner .content h1 {
-    border: 3px solid white;
+    font-size: 84px;
+    text-shadow: 5px 5px black;
     position: relative;
-    top: 100px;
-    width: 400px;
+    top: 50px;
+    right: 550px;
+    width: 600px;
     margin: 0 auto;
   }
