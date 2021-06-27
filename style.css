@@ -33,21 +33,16 @@ a:link {
   a:active {
     color: white;
   }
-
+/* Banner and Banner Text Settings */
   #banner {
     background-image: url("https://i.imgur.com/WUunuLu.jpg?1");
     background-size: cover;
     background-position: top center;
-    height: 800px;
+    margin: 0 auto;
+    height: 750px;
     width: 100%;
   }
-
   #banner .content h1 {
     font-size: 84px;
     text-shadow: 5px 5px black;
-    position: relative;
-    top: 50px;
-    right: 550px;
-    width: 600px;
-    margin: 0 auto;
   }
