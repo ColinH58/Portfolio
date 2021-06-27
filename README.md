@@ -1,1 +1,1 @@
-# Portfolio
+This is my personal portfolio, meant to demonstrate some of my abilities and provide a way to contact me.
