@@ -5,6 +5,7 @@ html {
     font-family: "Times New Roman", serif;
     border-left: 60px solid hsl(43, 74%, 48%);
     border-right: 60px solid hsl(215, 25%, 25%);
+    margin: 0 auto;
 }
 body {
     color: white;
