@@ -7,33 +7,35 @@ html {
     border-right: 250px solid hsl(215, 25%, 25%);
     margin: 0 auto;
 }
+
 body {
     color: white;
     }
-/* About Section */
+
+/* Accent Line above Footer */
+.border {
+    border-top: 5px solid white;    
+}
+
+    /* About Section */
 footer {
     font-size: 14px;
 }
-/* Line above Footer */
-.border {
-    border-top: 5px solid white;
-}
-/* Default Link */
+
+/* Link Rules */
 a:link {
     color: white;
   }
-  /* Visited Link */
   a:visited {
     color: hsl(43, 74%, 48%);
   }
-  /* Hover Over the Link */
   a:hover {
     color: gold;
   }
-  /* Clicking on the Link */
   a:active {
     color: white;
   }
+
 /* Banner and Banner Text Settings */
   #banner {
     background-image: url("https://i.imgur.com/WUunuLu.jpg?1");
@@ -42,8 +44,4 @@ a:link {
     margin: 0 auto;
     height: 750px;
     width: 100%;
-  }
-  #banner .content h1 {
-    font-size: 84px;
-    text-shadow: 5px 5px black;
   }
