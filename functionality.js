@@ -1,1 +1,1 @@
-//this will be my JS functionality!
+alert('Welcome to My Portfolio!');
