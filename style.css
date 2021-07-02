@@ -1,7 +1,7 @@
 html {
     background-color: hsl(215, 25%, 25%);
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-family: "Times New Roman", serif;
     border-left: 250px solid hsl(43, 74%, 48%);
     border-right: 250px solid hsl(215, 25%, 25%);
@@ -10,7 +10,7 @@ html {
 
 body {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     }
 
 /* Accent Line above Footer */
