@@ -36,3 +36,8 @@ a:link {
   a:active {
     color: white;
   }
+
+  .mytruck {
+    width: 100%;
+    height: 100%;
+  }
