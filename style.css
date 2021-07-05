@@ -36,14 +36,15 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 60px;
 }
 
 #selfie {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 50px;
+  padding: 25;
+  width: 50%;
 }
 
 .AboutSetup,
@@ -53,7 +54,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 25px;
+  padding: 25;
 }
 
 li {
