@@ -74,6 +74,10 @@ body {
   margin-top: 50px;
 }
 
+h1 {
+  text-align: center;
+}
+
 li {
   margin-bottom: 15px;
 }
