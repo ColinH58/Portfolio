@@ -7,7 +7,7 @@ html {
 
 /* Navigation Bar */
 nav {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: bold;
   width: 80%;
   display: flex;
@@ -62,7 +62,7 @@ li {
 
 /* Footer Section */
 footer {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: bold;
   width: 80%;
   display: flex;
