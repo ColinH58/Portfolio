@@ -1,17 +1,24 @@
 html {
-    background-color: hsl(215, 25%, 25%);
+    background-color: hsla(209, 13%, 35%, 100%);
     font-size: 16px;
-    font-family: "Times New Roman", serif;
+    font-family: "Roboto", sans-serif;
     margin: 0 auto;
 }
 
 /* Navigation Bar */
 nav {
-  width: 75%;
+  font-size: 1.15rem;
+  font-weight: bold;
+  width: 80%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 50px;
+  padding: 15px;
+  border: 5px solid hsl(32, 9%, 72%);
+  background: hsla(32, 9%, 72%, 100%);
+  border-radius: 25px;
+  position: fixed;
+  top: 0;
 }
 
 body {
@@ -23,23 +30,36 @@ body {
     align-items: center;
     }
 
-.myname {
+.MyName {
   width: 75%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  padding: 25px;
 }
 
 #selfie {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding: 50px;
+}
+
+.AboutSetup,
+.CodingJournal {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
 }
 
 /* Footer Section */
 footer {
-  font-size: 0.75rem;
+  font-size: .80rem;
+  font-weight: bold;
   width: 75%;
   display: flex;
   flex-flow: row wrap;
@@ -49,15 +69,15 @@ footer {
 
 /* Link Rules */
 a:link {
-    color: white;
+    color: 	hsla(209, 18%, 54%, 100%);
     text-decoration: none;
   }
   a:visited {
-    color: hsl(43, 74%, 48%);
+    color: 	hsla(209, 18%, 54%, 100%);
     text-decoration: none;
   }
   a:hover {
-    color: gold;
+    color: hsla(203, 28%, 77%, 100%);
     text-decoration: none;
   }
   a:active {
