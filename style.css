@@ -1,7 +1,7 @@
 html {
     background-color: hsl(215, 25%, 25%);
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Times New Roman", serif;
     border-left: 250px solid hsl(43, 74%, 48%);
     border-right: 250px solid hsl(215, 25%, 25%);
@@ -18,7 +18,7 @@ body {
     border-top: 5px solid white;    
 }
 
-    /* About Section */
+    /* Footer Section */
 footer {
   font-size: 0.75rem;
 }
