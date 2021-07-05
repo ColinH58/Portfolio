@@ -53,20 +53,20 @@ body {
 
 .AboutSetup,
 .CodingJournal {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   padding: 25;
-  margin-top: 50px;
 }
 
 .Resume,
+.Experience,
 .Projects,
 .Interests,
 .Contact {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
