@@ -53,7 +53,7 @@ body {
 
 .AboutSetup,
 .CodingJournal {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -62,11 +62,10 @@ body {
 }
 
 .Resume,
-.Experience,
 .Projects,
 .Interests,
 .Contact {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -74,6 +73,16 @@ body {
   padding: 25;
   margin-top: 50px;
 }
+
+.Experience {
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25;
+}
+
 
 h1 {
   text-align: center;
