@@ -58,13 +58,16 @@ body {
 
 /* Footer Section */
 footer {
-  font-size: .80rem;
+  font-size: 1.15rem;
   font-weight: bold;
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 50px;
+  padding: 15px;
+  border: 5px solid hsl(32, 9%, 72%);
+  background: hsla(32, 9%, 72%, 100%);
+  border-radius: 25px;
 }
 
 /* Link Rules */
