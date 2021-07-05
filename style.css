@@ -31,6 +31,7 @@ body {
     }
 
 .MyName {
+  font-size: 2.5rem;
   width: 75%;
   display: flex;
   flex-flow: row wrap;
