@@ -56,6 +56,10 @@ body {
   padding: 25px;
 }
 
+li {
+  margin-bottom: 15px;
+}
+
 /* Footer Section */
 footer {
   font-size: 1.15rem;
