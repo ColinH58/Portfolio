@@ -42,4 +42,5 @@ a:link {
     height: 100%;
     min-width: 25%;
     min-height: 25%;
+    max-width: 1385px;
   }
