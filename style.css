@@ -123,3 +123,35 @@ a:link {
     color: white;
     text-decoration: none;
   }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid hsla(32, 9%, 72%, 100%);
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: hsla(209, 18%, 54%, 100%);
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: hsla(203, 28%, 77%, 100%);
+}
+
+.ContactForm {
+  border-radius: 25px;
+  background-color: hsla(32, 9%, 72%, 100%);
+  padding: 50px;
+  margin: 50px;
+}

@@ -22,7 +22,21 @@
 <!-- Contact Page Body -->
 <body>
   <div class="Contact">
-    <h1>COLIN HOOLWERF</h1>    
+    <div class="ContactForm">
+        <form action="ContactFormSubmitter.php">
+          <label for="inputname">Name</label>
+          <input type="text" id="inputname" name="inputname" placeholder="Enter Your Name">
+          <label for="inputcompany">Company</label>
+          <input type="text" id="inputcompany" name="inputcompany" placeholder="Enter Your Company"> 
+          <label for="inputemail">Email Address</label>
+          <input type="text" id="inputemail" name="inputemail" placeholder="Enter Your Email Address">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject Line">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message..." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>   
   </div>
 
 <!-- Footer -->
