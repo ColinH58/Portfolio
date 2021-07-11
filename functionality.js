@@ -1,1 +1,1 @@
-alert("NOTE: I have not finished setting up the Contact Me Form yet. Please Email me at colinhoolwerf@gmail.com directly!");
+alert("Please Email me at colinhoolwerf@gmail.com directly!");
