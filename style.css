@@ -62,7 +62,6 @@ body {
 }
 
 .thankyou,
-.Resume,
 .Projects,
 .Interests,
 .Contact {
@@ -76,13 +75,16 @@ body {
   margin-bottom: 25px;
 }
 
-.Experience {
+.AboutSection,
+.ExperienceSection,
+.EducationSection,
+.VolunteerSection {
   width: 85%;
-  display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   padding: 25;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 
