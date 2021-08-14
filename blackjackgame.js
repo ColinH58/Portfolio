@@ -79,8 +79,8 @@ function dealerPlay() {
 // Handles the Final Outcome of the Game!
 function stayCard() {
     if (playingGame === true) {
-        dealerPlay()
         playingGame = false
+        dealerPlay()
         if (dealerSum > 21) {
             message = "The Dealer Went Bust! Hit Start Game to Play Again!"
             result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
