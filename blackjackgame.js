@@ -10,6 +10,7 @@ let resultElement = document.getElementById("result-element");
 let sumElement = document.getElementById("sum-element");
 let cardsElement = document.getElementById("cards-element");
 
+// Random Number Generator and Converter for Aces and Face Cards
 function getRandomCard() {
     let randomNumber = Math.floor(Math.random()*13) + 1
     if (randomNumber > 10) {
@@ -21,6 +22,7 @@ function getRandomCard() {
     }
 };
 
+// Resets the Results Output and Player Hand
 function startGame() {
     resultElement.textContent = "Result:"
     playingGame = true
@@ -31,6 +33,7 @@ function startGame() {
     renderGame()
 }
 
+// Displays the Player Cards and Displays Options with Game Ending Functionality
 function renderGame() {
     cardsElement.textContent = "Cards: "
     for (let i = 0; i < cards.length; i++) {
@@ -50,6 +53,7 @@ function renderGame() {
     messageElement.textContent = message
 };
 
+// Adds a Card to Player Cards
 function hitCard() {
     if (playingGame === true || blackJack === false) {
         let card = getRandomCard()
@@ -59,6 +63,7 @@ function hitCard() {
     } 
 };
 
+// Adds the Dealer Opponent and Very Basic/Casino Standard Dealer rules
 function dealerPlay() {
     let dealerFirstCard = getRandomCard()
     let dealerSecondCard = getRandomCard()
@@ -68,6 +73,7 @@ function dealerPlay() {
     }
 };
 
+// Handles the Final Outcome of the Game!
 function stayCard() {
     if (playingGame === true) {
         dealerPlay()
