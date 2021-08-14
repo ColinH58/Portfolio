@@ -22,8 +22,8 @@ function getRandomCard() {
 
 // Resets the Results Output and Player Hand
 function startGame() {
-    resultElement.textContent = "Hit or Stay to see the Result!"
     playingGame = true
+    resultElement.textContent = "Hit or Stay to see the Result!"
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
