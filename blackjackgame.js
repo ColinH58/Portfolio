@@ -23,6 +23,7 @@ function getRandomCard() {
 // Resets the Results Output and Player Hand
 function startGame() {
     playingGame = true
+    blackJack = false
     resultElement.textContent = "Hit or Stay to see the Result!"
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
