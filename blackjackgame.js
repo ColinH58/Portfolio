@@ -3,8 +3,6 @@ let sum = 0;
 let dealerSum = 0;
 let blackJack = false;
 let playingGame = false;
-let message = "";
-let result = "";
 let messageElement = document.getElementById("message-element");
 let resultElement = document.getElementById("result-element");
 let sumElement = document.getElementById("sum-element");
@@ -24,7 +22,7 @@ function getRandomCard() {
 
 // Resets the Results Output and Player Hand
 function startGame() {
-    resultElement.textContent = "Result:"
+    resultElement.textContent = "Hit or Stay to see the Result!"
     playingGame = true
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
@@ -42,12 +40,15 @@ function renderGame() {
     sumElement.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Would you like to Hit or Stay?"
+        resultElement.textContent = "Hit or Stay to see the Result!"
     } else if (sum === 21) {
         message = "Blackjack! Hit Start Game to Play Again!"
         blackJack = true
         playingGame = false
+        resultElement.textContent = "Blackjack!"
     } else {
         message = "Bust! Hit Start Game to Play Again!"
+        resultElement.textContent = "Bust!"
         playingGame = false
     }
     messageElement.textContent = message
