@@ -59,6 +59,10 @@ function hitCard() {
     } 
 };
 
+function dealerPlay() {
+    
+}
+
 function stayCard() {
     if (playingGame === true) {
         playingGame = false;
@@ -67,7 +71,6 @@ function stayCard() {
         let dealerThirdCard = getRandomCard()
         dealersCards = [dealerFirstCard, dealerSecondCard, dealerThirdCard]
         dealerSum = dealerFirstCard + dealerSecondCard + dealerThirdCard
-        renderGame()
         if (dealerSum > 21) {
             result = `You Win! The dealer drew ${dealerSum}`
         } else if (dealerSum == sum) {
