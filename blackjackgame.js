@@ -43,9 +43,9 @@ function renderGame() {
         result = "Hit or Stay to see the Result!"
     } else if (sum === 21) {
         message = "Blackjack! Hit Start Game to Play Again!"
+        result = "Blackjack!"
         blackJack = true
         playingGame = false
-        result = "Blackjack!"
     } else {
         message = "Bust! Hit Start Game to Play Again!"
         result = "Bust!"
@@ -57,7 +57,7 @@ function renderGame() {
 
 // Adds a Card to Player Cards
 function hitCard() {
-    if (playingGame === true || blackJack === false) {
+    if (playingGame === true && blackJack === false && sum <= 21) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
