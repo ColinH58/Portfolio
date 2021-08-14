@@ -40,17 +40,18 @@ function renderGame() {
     sumElement.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Would you like to Hit or Stay?"
-        resultElement.textContent = "Hit or Stay to see the Result!"
+        result = "Hit or Stay to see the Result!"
     } else if (sum === 21) {
         message = "Blackjack! Hit Start Game to Play Again!"
         blackJack = true
         playingGame = false
-        resultElement.textContent = "Blackjack!"
+        result = "Blackjack!"
     } else {
         message = "Bust! Hit Start Game to Play Again!"
-        resultElement.textContent = "Bust!"
+        result = "Bust!"
         playingGame = false
     }
+    resultElement.textContent = result
     messageElement.textContent = message
 };
 
@@ -80,16 +81,22 @@ function stayCard() {
         dealerPlay()
         playingGame = false
         if (dealerSum > 21) {
+            message = "The Dealer Went Bust!"
             result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum == sum) {
+            message = "It's a Draw!"
             result = `It's a Push! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum < sum) {
+            message = "Congratulations! You Win!"
             result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else {
+            message = "Oh No! Hit Start Game to Play Again!"
             result = `You Lose! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         }
-        resultElement.textContent = result
     } else {
-        resultElement.textContent = "Start a new game to try again!"
+        message = "Hit Start Game to Play Again!"
+        result = "Hit Start Game to Play Again!"
     }
+    resultElement.textContent = result
+    messageElement.textContent = message
 };
