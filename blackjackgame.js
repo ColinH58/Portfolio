@@ -4,7 +4,7 @@ let dealerSum = 0;
 let blackJack = false;
 let playingGame = false;
 let message = "";
-let result = " ";
+let result = "";
 let messageElement = document.getElementById("message-element");
 let resultElement = document.getElementById("result-element");
 let sumElement = document.getElementById("sum-element");
@@ -22,7 +22,7 @@ function getRandomCard() {
 };
 
 function startGame() {
-    result = ""
+    resultElement.textContent = "Result:"
     playingGame = true
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
@@ -38,13 +38,13 @@ function renderGame() {
     }
     sumElement.textContent = "Sum: " + sum
     if (sum <= 20) {
-        message = "Do you want to Hit or Stay?"
+        message = "Would you like to Hit or Stay?"
     } else if (sum === 21) {
-        message = "Blackjack! You Win!"
+        message = "Blackjack! Hit Start Game to Play Again!"
         blackJack = true
         playingGame = false
     } else {
-        message = "Bust! You Lose!"
+        message = "Bust! Hit Start Game to Play Again!"
         playingGame = false
     }
     messageElement.textContent = message
@@ -73,13 +73,13 @@ function stayCard() {
         dealerPlay()
         playingGame = false
         if (dealerSum > 21) {
-            result = `You Win! The dealer drew ${dealerSum}`
+            result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum == sum) {
-            result = `It's a Push! The dealer drew ${dealerSum}`
+            result = `It's a Push! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum < sum) {
-            result = `You Win! The dealer drew ${dealerSum}`
+            result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else {
-            result = `You Lose! The dealer drew ${dealerSum}`
+            result = `You Lose! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         }
         resultElement.textContent = result
     } else {

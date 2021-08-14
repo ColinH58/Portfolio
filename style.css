@@ -164,12 +164,15 @@ input[type=submit]:hover {
 /* For the BlackJack game in Projects */
 .BlackJackGame {
   color: white;
+  background-color: hsla(0,0%,0%, 40%);
   font-size: 1.25rem;
   display: flexbox;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  padding-top: 75px;
+  margin-top: 75px;
+  padding: 25px;
+  border-radius: 25px;
 }
 
 button {
