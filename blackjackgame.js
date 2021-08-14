@@ -81,16 +81,16 @@ function stayCard() {
         dealerPlay()
         playingGame = false
         if (dealerSum > 21) {
-            message = "The Dealer Went Bust!"
+            message = "The Dealer Went Bust! Hit Start Game to Play Again!"
             result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum == sum) {
-            message = "It's a Draw!"
+            message = "It's a Draw! Hit Start Game to Play Again!"
             result = `It's a Push! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum < sum) {
-            message = "Congratulations! You Win!"
+            message = "Congratulations! You Win! Hit Start Game to Play Again!"
             result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else {
-            message = "Oh No! Hit Start Game to Play Again!"
+            message = "Oh No! Better Luck Next Time! Hit Start Game to Play Again!"
             result = `You Lose! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         }
     } else {
