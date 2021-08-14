@@ -57,7 +57,7 @@ function renderGame() {
 
 // Adds a Card to Player Cards
 function hitCard() {
-    if (playingGame === true && blackJack === false && sum <= 21) {
+    if (playingGame === true && blackJack === false) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
