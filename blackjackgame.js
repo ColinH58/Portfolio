@@ -30,7 +30,7 @@ function startGame() {
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
     renderGame()
-}
+};
 
 // Displays the Player Cards and Displays Options with Game Ending Functionality
 function renderGame() {
