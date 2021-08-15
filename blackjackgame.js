@@ -3,14 +3,14 @@ let sum = 0;
 let dealerSum = 0;
 let blackJack = false;
 let playingGame = false;
-let messageElement = document.getElementById("message-element");
-let resultElement = document.getElementById("result-element");
-let sumElement = document.getElementById("sum-element");
-let cardsElement = document.getElementById("cards-element");
+const messageElement = document.getElementById("message-element");
+const resultElement = document.getElementById("result-element");
+const sumElement = document.getElementById("sum-element");
+const cardsElement = document.getElementById("cards-element");
 
 // Random Number Generator and Converter for Aces and Face Cards
 function getRandomCard() {
-    let randomNumber = Math.floor(Math.random()*13) + 1
+    const randomNumber = Math.floor(Math.random()*13) + 1
     if (randomNumber > 10) {
         return 10
     } else if (randomNumber === 1) {
@@ -25,8 +25,8 @@ function startGame() {
     playingGame = true
     blackJack = false
     resultElement.textContent = "Hit or Stay to see the Result!"
-    let firstCard = getRandomCard()
-    let secondCard = getRandomCard()
+    const firstCard = getRandomCard()
+    const secondCard = getRandomCard()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
     renderGame()
@@ -59,7 +59,7 @@ function renderGame() {
 // Adds a Card to Player Cards
 function hitCard() {
     if (playingGame === true && blackJack === false) {
-        let card = getRandomCard()
+        const card = getRandomCard()
         sum += card
         cards.push(card)
         renderGame()
@@ -68,8 +68,8 @@ function hitCard() {
 
 // Adds the Dealer Opponent and Very Basic/Casino Standard Dealer rules
 function dealerPlay() {
-    let dealerFirstCard = getRandomCard()
-    let dealerSecondCard = getRandomCard()
+    const dealerFirstCard = getRandomCard()
+    const dealerSecondCard = getRandomCard()
     dealerSum = dealerFirstCard + dealerSecondCard
     while (dealerSum < 17) {
         dealerSum += getRandomCard()
