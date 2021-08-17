@@ -24,7 +24,7 @@ function getRandomCard() {
 function startGame() {
     playingGame = true
     blackJack = false
-    resultElement.textContent = "Hit or Stay to see the Result!"
+    resultElement.textContent = "Hit or Stay to see the Result! 🤔"
     const firstCard = getRandomCard()
     const secondCard = getRandomCard()
     cards = [firstCard, secondCard]
@@ -41,15 +41,15 @@ function renderGame() {
     sumElement.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Would you like to Hit or Stay?"
-        result = "Hit or Stay to see the Result!"
+        result = "Hit or Stay to see the Result! 🤔"
     } else if (sum === 21) {
         message = "Blackjack! Hit Start Game to Play Again!"
-        result = "Blackjack!"
+        result = "Blackjack! ♥ ♠ ♦ ♣"
         blackJack = true
         playingGame = false
     } else {
         message = "Bust! Hit Start Game to Play Again!"
-        result = "Bust!"
+        result = "Bust! 💣"
         playingGame = false
     }
     resultElement.textContent = result
@@ -83,16 +83,16 @@ function stayCard() {
         dealerPlay()
         if (dealerSum > 21) {
             message = "The Dealer Went Bust! Hit Start Game to Play Again!"
-            result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
+            result = `You Win! 🎉 The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum == sum) {
             message = "It's a Draw! Hit Start Game to Play Again!"
-            result = `It's a Push! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
+            result = `It's a Push! 🎴 The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else if (dealerSum < sum) {
             message = "Congratulations! You Win! Hit Start Game to Play Again!"
-            result = `You Win! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
+            result = `You Win! 🎊 The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         } else {
             message = "Oh No! Better Luck Next Time! Hit Start Game to Play Again!"
-            result = `You Lose! The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
+            result = `You Lose! 💢 The dealer drew ${dealerSum}! Hit Start Game to Play Again!`
         }
     } else {
         message = "Hit Start Game to Play Again!"
