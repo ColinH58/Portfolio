@@ -173,6 +173,8 @@ input[type=submit]:hover {
   margin-top: 75px;
   padding: 25px;
   border-radius: 25px;
+  width: 600px;
+  height: 350px;
 }
 
 button {
