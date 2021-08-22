@@ -52,7 +52,8 @@ body {
 }
 
 .AboutSetup,
-.CodingJournal {
+.CodingJournal,
+.ProjectList {
   width: 85%;
   display: flex;
   flex-flow: row wrap;
@@ -166,7 +167,7 @@ input[type=submit]:hover {
   color: white;
   background-color: hsla(0,0%,0%, 40%);
   font-size: 1.25rem;
-  display: flexbox;
+  display: block;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
