@@ -184,7 +184,7 @@ input[type=submit]:hover {
   height: 350px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 325px) {
   .BlackJackGame {
     color: white;
     background-color: hsla(0,0%,0%, 40%);
@@ -193,6 +193,22 @@ input[type=submit]:hover {
     flex-flow: row wrap;
     align-items: center;
     margin-top: 90px;
+    border-radius: 25px;
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .BlackJackGame {
+    color: white;
+    background-color: hsla(0,0%,0%, 40%);
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     border-radius: 25px;
     width: 75%;
     height: auto;
