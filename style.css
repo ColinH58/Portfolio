@@ -1,5 +1,5 @@
 html {
-    background-color: hsla(209, 13%, 35%, 100%);
+    background-color: hsla(203.3,78.8%,16.7%, 100%);
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
@@ -14,8 +14,8 @@ nav {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 15px;
-  border: 5px solid hsl(32, 9%, 72%);
-  background: hsla(32, 9%, 72%, 100%);
+  border: 5px solid hsla(52.2,22.9%,53.7%, 75%);
+  background: hsla(52.2,22.9%,53.7%, 100%);
   border-radius: 25px;
   position: fixed;
   top: 0;
@@ -112,34 +112,34 @@ footer {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 15px;
-  border: 5px solid hsl(32, 9%, 72%);
-  background: hsla(32, 9%, 72%, 100%);
+  border: 5px solid hsla(52.2,22.9%,53.7%, 75%);
+  background: hsla(52.2,22.9%,53.7%, 100%);
   border-radius: 25px;
 }
 
 /* Link Rules */
 a:link {
-    color: 	hsla(209, 18%, 54%, 100%);
+    color: 	hsla(67.3,98.4%,50.8%, 100%);
     text-decoration: none;
   }
   a:visited {
-    color: 	hsla(209, 18%, 54%, 100%);
+    color: 	hsla(67.3,98.4%,50.8%, 100%);
     text-decoration: none;
   }
   a:hover {
-    color: hsla(203, 28%, 77%, 100%);
+    color: hsla(79.5,46.4%,53.1%, 100%);
     text-decoration: none;
     transition: color 300ms linear 80ms;
   }
   a:active {
-    color: white;
+    color: hsla(163.2,36.9%,60.2%, 100%);
     text-decoration: none;
   }
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid hsla(32, 9%, 72%, 100%);
+  border: 1px solid hsla(52.2,22.9%,53.7%, 100%);
   border-radius: 25px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -148,9 +148,9 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: hsla(209, 18%, 54%, 100%);
+  background-color: hsla(67.3,98.4%,50.8%, 100%);
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 25px;
@@ -158,12 +158,17 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: hsla(203, 28%, 77%, 100%);
+  background-color: hsla(79.5,46.4%,53.1%, 100%);
+  transition: color 300ms linear 80ms;
+}
+
+input[type=submit]:active {
+  background-color: hsla(163.2,36.9%,60.2%, 100%);
 }
 
 .ContactForm {
   border-radius: 25px;
-  background-color: hsla(32, 9%, 72%, 100%);
+  background-color: hsla(52.2,22.9%,53.7%, 100%);
   padding: 50px;
   margin: 50px;
 }
@@ -201,9 +206,9 @@ input[type=submit]:hover {
 }
 
 button {
-  color: white;
+  color: hsla(203.3,78.8%,16.7%, 100%);
   width: 150px;
-  background: hsla(209, 18%, 54%, 100%);
+  background: hsla(67.3,98.4%,50.8%, 100%);
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: bold;
@@ -215,11 +220,11 @@ button {
 }
 
 button:hover {
-  background: hsla(203, 28%, 77%, 100%);
+  background: hsla(79.5,46.4%,53.1%, 100%);
   text-decoration: none;
   transition: color 300ms linear 80ms;
 }
 button:active {
-  background: white;
+  background: hsla(163.2,36.9%,60.2%, 100%);
   text-decoration: none;
 }
