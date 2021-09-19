@@ -1,1 +1,0 @@
-alert("Please Email me at colinhoolwerf@gmail.com directly!");
