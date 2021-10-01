@@ -1,5 +1,7 @@
 html {
     background-color: hsla(203.3,78.8%,16.7%, 100%);
+    background-image: url("https://i.imgur.com/ZSOfjto.jpg");
+    background-repeat: repeat;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
@@ -37,14 +39,17 @@ body {
     }
 
 .MyName {
+  background-image: url("https://i.imgur.com/ZBTnkPk.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 1255px;
   font-size: 2.5rem;
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   padding: 60px;
-  margin-top: 25px;
 }
 
 #selfie {
@@ -52,7 +57,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 25;
-  width: 50%;
+  width: 35%;
   margin-top: 25px;
   border-radius: 25px;
 }
