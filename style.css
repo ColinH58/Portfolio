@@ -11,14 +11,12 @@ html {
 nav {
   font-size: 1.25rem;
   font-weight: bold;
-  width: 80%;
+  width: 100vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 15px;
-  border: 5px solid hsla(52.2,22.9%,53.7%, 75%);
   background: hsla(52.2,22.9%,53.7%, 100%);
-  border-radius: 25px;
   position: fixed;
   top: 0;
 }
@@ -112,14 +110,14 @@ li {
 footer {
   font-size: 1.75rem;
   font-weight: bold;
-  width: 80%;
+  width: 100vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 15px;
-  border: 5px solid hsla(52.2,22.9%,53.7%, 75%);
   background: hsla(52.2,22.9%,53.7%, 100%);
-  border-radius: 25px;
+  position: fixed;
+  bottom: 0;
 }
 
 /* Link Rules */
