@@ -38,7 +38,7 @@ function renderGame() {
     for (let i = 0; i < cards.length; i++) {
         cardsElement.textContent += cards[i] + " "
     }
-    sumElement.textContent = "Sum: " + sum
+    sumElement.textContent = "Your Hand: " + sum
     if (sum <= 20) {
         message = "Would you like to Hit or Stay?"
         result = "Hit or Stay to see the Result! 🤔"
