@@ -59,6 +59,10 @@ body {
   margin-top: 200px;
 }
 
+#MyName {
+  text-shadow: 3px 3px hsla(203.3,78.8%,16.7%, 100%);
+}
+
 .Links {
   background-color: hsla(0,0%,0%, 75%);
 }
