@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="blackjackgame.js" defer></script>
+    <script src="GuessingGame.js" defer></script>
   </head>
 
  <!-- Navigation Bar -->
@@ -30,6 +31,34 @@
     <button onclick="hitCard()">Hit</button>
     <button onclick="stayCard()">Stay</button>
     <p id="result-element">Click Start Game to Play!</p>
+  </div>
+
+  <div class="GuessingGame">
+    <div class="heading">
+      <h1>Guessing Game!</h1>
+      <h2>Guess any number between 1 and 100!</h2>
+      <h3 id="results">Take a Guess!</h3>
+      <h4 id="minor-hint">Good Luck!</h4>
+    </div>
+<hr>
+    <div class="player-input">
+      <input id="player-guess" type="number"></input>
+      <br>
+      <input id="submit" type="submit"></input>
+    </div>
+    <div>
+        <p>Maximum of 5 Guesses</p>
+        <p id="guess">Your Guesses Will Go Here!</p>
+    </div>
+    <div class="reset">
+      <button id="reset-btn">Play Again!</button>
+    </div>
+<hr>
+    <div class="hint">
+      <h3 id="major-hint">Need a Hint?</h3>
+      <p>This Will Give You The Answer And Two Wrong Answers</p>
+      <button id="hint-btn">Hint!</button>
+    </div>
   </div>
 
   <div class="Projects">
