@@ -304,7 +304,7 @@ button:active {
     background-color: hsla(0,0%,0%, 40%);
     font-size: 1.25rem;
     display: block;
-    flex-flow: row wrap;
+    flex-flow: column;
     justify-content: space-around;
     align-items: center;
     margin-top: 75px;
