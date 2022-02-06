@@ -150,7 +150,8 @@ body {
 }
 
 
-h1 {
+h1,
+#title {
   text-align: center;
 }
 
@@ -283,34 +284,4 @@ button:hover {
 button:active {
   background: hsla(163.2,36.9%,60.2%, 100%);
   text-decoration: none;
-}
-
-.GuessingGame {
-  color: white;
-  background-color: hsla(0,0%,0%, 40%);
-  font-size: 1.25rem;
-  display: block;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 75px;
-  padding: 25px;
-  border-radius: 25px;
-}
-
-@media only screen and (max-width: 428px) {
-  .GuessingGame {
-    color: white;
-    background-color: hsla(0,0%,0%, 40%);
-    font-size: 1.25rem;
-    display: block;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 75px;
-    padding: 25px;
-    border-radius: 25px;
-    width: 75vw;
-    height: auto;
-  }
 }

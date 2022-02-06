@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colin Hoolwerf</title>
+    <title>My Projects</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="blackjackgame.js" defer></script>
@@ -23,7 +23,7 @@
 <!-- Projects Page Body -->
 <body>
   <div class="BlackJackGame">
-    <h1>Blackjack</h1>
+    <h2 id="title">Blackjack</h2>
     <p id="message-element">Want to play a blackjack?</p>
     <p id="cards-element">Cards:</p>
     <p id="sum-element">Your Hand:</p>
@@ -33,40 +33,26 @@
     <p id="result-element">Click Start Game to Play!</p>
   </div>
 
-  <div class="GuessingGame">
-    <div class="heading">
-      <h1>Guessing Game!</h1>
-      <h2>Guess a Number 1 - 100!</h2>
-      <h3 id="results">Take a Guess!</h3>
-      <h4 id="minor-hint">Good Luck!</h4>
-    </div>
-<hr>
-    <div class="player-input">
-      <input id="player-guess" type="number"></input>
-      <br>
-      <input id="submit" type="submit"></input>
-    </div>
-    <div>
-        <p>Maximum of 5 Guesses</p>
-        <p id="guess">Your Guesses Will Go Here!</p>
-    </div>
-    <div class="reset">
-      <button id="reset-btn">Play Again!</button>
-    </div>
-<hr>
-    <div class="hint">
-      <h3 id="major-hint">Need a Hint?</h3>
-      <button id="hint-btn">Hint!</button>
-    </div>
+  <div class="Projects">
+    <h2>Projects Deployed on Netlify</h2>
+    <ul class="ProjectList">
+      <li>
+        <a href="https://colin-hoolwerf-snake.netlify.app/" target="_blank">Snake in Vanilla JavaScript</a>
+      </li>
+
+      <li>
+        <a href="https://colin-hoolwerf-guessing-game.netlify.app/" target="_blank">Guessing Game in Vanilla JavaScript</a>
+      </li>
+    </ul>
   </div>
 
   <div class="Projects">
-    <h1>Projects on Github</h1>
+    <h2>Projects on Github</h2>
       <ul class="ProjectList">
         <li>
           <a href="https://github.com/ColinH58/todolist-react" target="_blank">To Do List App in React (Code Along)</a>
         </li>
-        
+  
         <li>
           <a href="https://github.com/ColinH58/tictactoe-react" target="_blank">Tic Tac Toe in React (Code Along w/ Modifications)</a>
         </li>
@@ -112,11 +98,11 @@
 </body>
 
 <!-- Footer -->
-<footer>
-  <a href="mailto:colinhoolwerf@gmail.com" class="fa fa-google" title="Email"></a>
-  <a href="https://www.linkedin.com/in/colinhoolwerf/" target="_blank" class="fa fa-linkedin" title="LinkedIn"></a>
-  <a href="https://github.com/ColinH58" target="_blank" class="fa fa-github" title="GitHub"></a> 
-  <a href="https://www.instagram.com/colinh58/" target="_blank" class="fa fa-instagram" title="Instagram"></a>
-  <a href="https://twitter.com/ColinSH58" target="_blank" class="fa fa-twitter" title="Twitter"></a>
-</footer>
+  <footer>
+    <a href="mailto:colinhoolwerf@gmail.com" target="_blank" class="fa fa-google" title="Email"></a>
+    <a href="https://www.linkedin.com/in/colinhoolwerf/" target="_blank" class="fa fa-linkedin" title="LinkedIn"></a>
+    <a href="https://github.com/ColinH58" target="_blank" class="fa fa-github" title="GitHub"></a> 
+    <a href="https://www.instagram.com/colinh58/" target="_blank" class="fa fa-instagram" title="Instagram"></a>
+    <a href="https://twitter.com/ColinSH58" target="_blank" class="fa fa-twitter" title="Twitter"></a>
+  </footer>
 </html>
