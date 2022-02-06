@@ -229,38 +229,6 @@ input[type=submit]:active {
   margin: 50px;
 }
 
-/* For the BlackJack game in Projects */
-.BlackJackGame {
-  color: white;
-  background-color: hsla(0,0%,0%, 40%);
-  font-size: 1.25rem;
-  display: block;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 75px;
-  padding: 25px;
-  border-radius: 25px;
-  width: 600px;
-  height: 350px;
-}
-
-@media only screen and (max-width: 428px) {
-  .BlackJackGame {
-    color: white;
-    background-color: hsla(0,0%,0%, 40%);
-    font-size: 1.25rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    border-radius: 25px;
-    width: 75vw;
-    height: auto;
-  }
-}
-
 button {
   color: hsla(203.3,78.8%,16.7%, 100%);
   width: 150px;
