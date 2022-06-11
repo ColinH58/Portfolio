@@ -40,6 +40,10 @@ body {
   align-items: center;
 }
 
+hr {
+  width: 85vw;
+}
+
 .Banner {
   background-image: url("assets/Banner.jpg");
   background-repeat: no-repeat;
@@ -120,6 +124,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   padding: 25;
 }
 
