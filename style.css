@@ -130,7 +130,17 @@ hr {
 
 .thankyou,
 .Projects,
-.Interests,
+.Interests {
+  width: 85vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
 .Contact {
   width: 85vw;
   display: flex;
@@ -140,6 +150,14 @@ hr {
   padding: 25;
   margin-top: 75px;
   margin-bottom: 25px;
+}
+
+.ContactForm {
+  border-radius: 25px;
+  background-color: hsla(52.2, 22.9%, 53.7%, 100%);
+  padding: 50px;
+  margin: 50px;
+  width: 85vw;
 }
 
 .AboutSection,
@@ -200,7 +218,7 @@ a:active {
 input[type="text"],
 select,
 textarea {
-  width: 100vw;
+  width: 85vw;
   padding: 12px;
   border: 1px solid hsla(52.2, 22.9%, 53.7%, 100%);
   border-radius: 25px;
@@ -229,12 +247,6 @@ input[type="submit"]:active {
   background-color: hsla(163.2, 36.9%, 60.2%, 100%);
 }
 
-.ContactForm {
-  border-radius: 25px;
-  background-color: hsla(52.2, 22.9%, 53.7%, 100%);
-  padding: 50px;
-  margin: 50px;
-}
 
 button {
   color: hsla(203.3, 78.8%, 16.7%, 100%);
