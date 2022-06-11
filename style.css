@@ -95,7 +95,7 @@ body {
 }
 
 .AboutSetup {
-  width: 85%;
+  width: 85vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -105,7 +105,7 @@ body {
 }
 
 .CodingJournal {
-  width: 85%;
+  width: 85vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -115,7 +115,7 @@ body {
 }
 
 .ProjectList {
-  width: 85%;
+  width: 85vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -127,7 +127,7 @@ body {
 .Projects,
 .Interests,
 .Contact {
-  width: 85%;
+  width: 85vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -141,7 +141,7 @@ body {
 .ExperienceSection,
 .EducationSection,
 .VolunteerSection {
-  width: 85%;
+  width: 85vw;
   justify-content: space-around;
   align-items: center;
   padding: 25;
@@ -156,7 +156,7 @@ h1,
 
 li {
   margin-bottom: 15px;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Footer Section */
@@ -195,7 +195,7 @@ a:active {
 input[type="text"],
 select,
 textarea {
-  width: 100%;
+  width: 100vw;
   padding: 12px;
   border: 1px solid hsla(52.2, 22.9%, 53.7%, 100%);
   border-radius: 25px;
